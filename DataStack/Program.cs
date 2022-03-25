@@ -20,7 +20,11 @@ namespace DataStack
             //Console.WriteLine($"length = {stack.Count}");
 
             //stack.Clear();
-            //Console.WriteLine(stack.Contains(4));
+            Console.WriteLine(stack.Contains(8));
+            if (stack.Contains(1)==true)
+            {
+                Console.WriteLine(true);
+            }
             foreach (var item in stack)
             {
                 Console.WriteLine(item);
